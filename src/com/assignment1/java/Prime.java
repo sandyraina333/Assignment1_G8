@@ -58,6 +58,7 @@ public class Prime {
 		sc.close();
 		if(n == 1) {
 			System.out.println("1 is neither prime or composite");
+			System.out.println("1 is neither prime or composite");
 		}else {
 			System.out.println(prime(n));
 		}
