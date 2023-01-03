@@ -13,7 +13,7 @@ public class JavaException {
 		System.out.print("enter second number(denominator):");
 		int denominator=sc.nextInt();
 		int a=numerator/denominator;
-		System.out.print("I am executed without any exception");
+		System.out.print(a+" "+"I am executed without any exception");
 		}
 		catch(Exception e) {
 			System.out.println("I am an exception");
