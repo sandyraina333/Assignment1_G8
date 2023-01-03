@@ -16,7 +16,7 @@ public class JavaException {
 		System.out.print(a+" "+"I am executed without any exception");
 		}
 		catch(Exception e) {
-			System.out.println("I am an exception");
+			System.out.println("I am an exception...");
 		}
 	}
 
