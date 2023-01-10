@@ -5,9 +5,8 @@ import java.util.Scanner;
 class Palindrome{ 
 
 	 public static void main(String args[]){  
-		 try {
-			 Scanner inp = new Scanner(System.in);   
-		      System.out.println("Enter a number to check  palindrome");  
+		 try (Scanner inp = new Scanner(System.in)) {
+			 System.out.println("Enter a number to check  palindrome");  
 		      int  num=inp.nextInt(); 
 			 int r,sum=0;
 			int temp;     
@@ -21,7 +20,7 @@ class Palindrome{
 		  if(temp==sum)    
 		   System.out.println("palindrome number ");    
 		  else    
-		   System.out.println("not palindrome");    
+		   System.out.println("It is not a palindrome number");    
 		}  
 		catch(Exception e) {
 			
